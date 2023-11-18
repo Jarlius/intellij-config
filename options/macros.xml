@@ -1,0 +1,149 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="method head">
+      <typing text-keycode="47:0;47:0;32:0;45:0;45:0;32:0;77:1;69:1;84:1;72:1;79:1;68:1;32:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0">//&amp;#x20;--&amp;#x20;METHOD&amp;#x20;----------------------------------------------------------------</typing>
+    </macro>
+    <macro name="method head end">
+      <typing text-keycode="56:1;47:0;47:0;47:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0">*///-------------------------------------------------------------------------</typing>
+    </macro>
+    <macro name="method header since">
+      <typing text-keycode="50:1;83:0;73:0;78:0;67:0;69:0;32:0;32:0;32:0;32:0;50:1;83:1;73:1;78:1;67:1;69:1;45:1;86:1;69:1;82:1;83:1;73:1;79:1;78:1;50:1">@since&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;@SINCE_VERSION@</typing>
+    </macro>
+    <macro name="method header param">
+      <action id="EditorLeftWithSelection" />
+      <typing text-keycode="50:1;80:0;65:0;82:0;65:0;77:0;32:0;32:0;32:0;32:0">@param&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;</typing>
+    </macro>
+    <macro name="method header throws">
+      <action id="EditorLeftWithSelection" />
+      <typing text-keycode="50:1;84:0;72:0;82:0;79:0;87:0;83:0;32:0;32:0;32:0">@throws&amp;#x20;&amp;#x20;&amp;#x20;</typing>
+    </macro>
+    <macro name="method head return">
+      <action id="EditorLeftWithSelection" />
+      <typing text-keycode="50:1;82:0;69:0;84:0;85:0;82:0;78:0;32:0;32:0;32:0">@return&amp;#x20;&amp;#x20;&amp;#x20;</typing>
+    </macro>
+    <macro name="documentation spaces">
+      <typing text-keycode="32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0">&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;</typing>
+    </macro>
+    <macro name="members header">
+      <typing text-keycode="47:0;47:0;32:0;45:0;45:0;45:0;45:0;45:0;32:0;77:0;69:0;77:0;66:0;69:0;82:0;83:0;32:0;45:0;45:0;45:0;45:0;45:0">//&amp;#x20;-----&amp;#x20;members&amp;#x20;-----</typing>
+    </macro>
+    <macro name="constants header">
+      <typing text-keycode="47:0;47:0;32:0;45:0;45:0;45:0;45:0;45:0;32:0;67:0;79:0;78:0;83:0;84:0;65:0;78:0;84:0;83:0;32:0;45:0;45:0;45:0;45:0;45:0">//&amp;#x20;-----&amp;#x20;constants&amp;#x20;-----</typing>
+    </macro>
+    <macro name="documentation variable">
+      <typing text-keycode="47:0;56:1;56:1;32:0;32:0;56:1;47:0">/**&amp;#x20;&amp;#x20;*/</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+    </macro>
+    <macro name="documentation serialUID">
+      <typing text-keycode="47:0;56:1;56:1;32:0;83:0;69:0;82:0;73:0;65:0;76:0;73:0;90:0;65:0;84:0;73:0;79:0;78:0;32:0;86:0;69:0;82:0;83:0;73:0;79:0;78:0;73:0;78:0;71:0;59:1;32:0;78:0;69:0;67:0;69:0;83:0;83:0;65:0;82:0;89:0;32:0;84:0;79:0;32:0;80:0;82:0;69:0;86:0;69:0;78:0;84:0;32:0;79:0;66:0;70:0;85:0;83:0;67:0;65:0;84:0;73:0;79:0;78:0;32:0;70:0;82:0;79:0;77:0;32:0;66:0;82:0;69:0;65:0;75:0;73:0;78:0;71:0;32:0;73:0;84:0;32:0;56:1;47:0">/**&amp;#x20;serialization&amp;#x20;versioning:&amp;#x20;necessary&amp;#x20;to&amp;#x20;prevent&amp;#x20;obfuscation&amp;#x20;from&amp;#x20;breaking&amp;#x20;it&amp;#x20;*/</typing>
+    </macro>
+    <macro name="interface header">
+      <typing text-keycode="47:0;47:0;32:0;45:0;45:0;32:0;73:1;78:1;84:1;69:1;82:1;70:1;65:1;67:1;69:1;32:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0">//&amp;#x20;--&amp;#x20;INTERFACE&amp;#x20;-------------------------------------------------------------</typing>
+    </macro>
+    <macro name="class header">
+      <typing text-keycode="47:0;47:0;32:0;45:0;45:0;32:0;67:1;76:1;65:1;83:1;83:1;32:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0">//&amp;#x20;--&amp;#x20;CLASS&amp;#x20;-----------------------------------------------------------------</typing>
+    </macro>
+    <macro name="parameters header">
+      <typing text-keycode="47:0;47:0;32:0;45:0;45:0;45:0;45:0;45:0;32:0;80:0;65:0;82:0;65:0;77:0;69:0;84:0;69:0;82:0;83:0;32:0;45:0;45:0;45:0;45:0;45:0">//&amp;#x20;-----&amp;#x20;parameters&amp;#x20;-----</typing>
+    </macro>
+    <macro name="bottom text">
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorForwardParagraph" />
+      <action id="EditorLeft" />
+      <typing text-keycode="32:0;47:0;47:0;32:0">&amp;#x20;//&amp;#x20;</typing>
+      <action id="EditorPaste" />
+    </macro>
+    <macro name="bottom text v2">
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorForwardParagraph" />
+      <action id="EditorForwardParagraph" />
+      <action id="EditorLeft" />
+      <typing text-keycode="32:0;47:0;47:0;32:0">&amp;#x20;//&amp;#x20;</typing>
+      <action id="EditorPaste" />
+    </macro>
+    <macro name="method header inherit">
+      <typing text-keycode="47:0;56:1;56:1;32:0;91:1;50:1;73:0;78:0;72:0;69:0;82:0;73:0;84:0;68:1;79:0;67:0;93:1">/**&amp;#x20;{@inheritDoc}</typing>
+      <action id="EditorDown" />
+    </macro>
+    <macro name="logger declaration 2">
+      <typing text-keycode="47:0;56:1;56:1;32:0;84:0;72:0;69:0;32:0;76:0;79:0;71:0;71:0;69:0;82:0;32:0;84:0;79:0;32:0;85:0;83:0;69:0;32:0;70:0;79:0;82:0;32:0;84:0;72:0;73:0;83:0;32:0;67:0;76:0;65:0;83:0;83:0;32:0;56:1;47:0">/**&amp;#x20;the&amp;#x20;logger&amp;#x20;to&amp;#x20;use&amp;#x20;for&amp;#x20;this&amp;#x20;class&amp;#x20;*/</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="80:0;82:0;73:0;86:0;65:0;84:0;69:0;32:0;83:0;84:0;65:0;84:0;73:0;67:0;32:0;70:0;73:0;78:0;65:0;76:0;32:0;76:1;79:0;71:0;71:0;69:0;82:0;32:0">private&amp;#x20;static&amp;#x20;final&amp;#x20;Logger&amp;#x20;</typing>
+      <shortuct text="CAPS_LOCK" />
+      <typing text-keycode="76:0;79:0;71:0;71:0;69:0;82:0">LOGGER</typing>
+      <shortuct text="CAPS_LOCK" />
+      <typing text-keycode="32:0;61:0;32:0;76:1;79:0;71:0;71:0;69:0;82:0;46:0;71:0;69:0;84:0;76:1;79:0;71:0;71:0;69:0;82:0;57:1;32:0;32:0;48:1;59:0">&amp;#x20;=&amp;#x20;Logger.getLogger(&amp;#x20;&amp;#x20;);</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+    </macro>
+    <macro name="unit test header">
+      <typing text-keycode="47:0;47:0;32:0;45:0;45:0;32:0;85:1;78:1;73:1;84:1;32:0;84:1;69:1;83:1;84:1;32:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0;45:0">//&amp;#x20;--&amp;#x20;UNIT&amp;#x20;TEST&amp;#x20;-------------------------------------------------------------</typing>
+    </macro>
+    <macro name="exception indent">
+      <typing text-keycode="32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0">&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;</typing>
+    </macro>
+    <macro name="exception indent 1">
+      <action id="EditorEnter" />
+      <action id="EditorUp" />
+      <action id="EditorLineStart" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorPaste" />
+      <typing text-keycode="32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0;32:0">&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;&amp;#x20;</typing>
+    </macro>
+    <macro name="exception indent 2">
+      <action id="EditorEnter" />
+      <action id="EditorUp" />
+      <action id="EditorLineStart" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+      <action id="EditorLineStartWithSelection" />
+      <action id="EditorPaste" />
+    </macro>
+    <macro name="five up">
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+      <action id="Tree-selectPrevious" />
+    </macro>
+    <macro name="five down">
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+      <action id="Tree-selectNext" />
+    </macro>
+    <macro name="method access doc">
+      <typing text-keycode="47:0;56:1;56:1;32:0;65:1;67:0;67:0;69:0;83:0;83:0;32:0;84:0;79:0;32:0;84:0;72:0;69:0;32:0;46:0">/**&amp;#x20;Access&amp;#x20;to&amp;#x20;the&amp;#x20;.</typing>
+      <action id="EditorLeft" />
+    </macro>
+    <macro name="junit testcompile">
+      <typing text-keycode="84:0;69:0;83:0;84:0;67:1;79:0;77:0;80:0;73:0;76:0;69:0;32:0;71:0;82:0;79:0;85:0;80:0;59:1;32:0;222:0;74:0;85:0;78:0;73:0;84:0;222:0;44:0;32:0;78:0;65:0;77:0;69:0;59:1;32:0;222:0;74:0;85:0;78:0;73:0;84:0;222:0;44:0;32:0;86:0;69:0;82:0;83:0;73:0;79:0;78:0;59:1;32:0;222:0;52:0;46:0;49:0;51:0;222:0">testCompile&amp;#x20;group:&amp;#x20;'junit',&amp;#x20;name:&amp;#x20;'junit',&amp;#x20;version:&amp;#x20;'4.13'</typing>
+    </macro>
+    <macro name="method setter doc">
+      <typing text-keycode="47:0;56:1;56:1;32:0;65:1;67:0;67:0;69:0;83:0;83:0;79:0;82:0;32:0;70:0;79:0;82:0;32:0;84:0;72:0;69:0;32:0;46:0">/**&amp;#x20;Accessor&amp;#x20;for&amp;#x20;the&amp;#x20;.</typing>
+      <action id="EditorLeft" />
+    </macro>
+    <macro name="indent forced purity">
+      <action id="EditorUp" />
+      <action id="EditorLineStart" />
+      <action id="EditorDown" />
+      <action id="EditorRight" />
+      <action id="EditorRight" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorPreviousWordWithSelection" />
+      <action id="EditorBackSpace" />
+    </macro>
+  </component>
+</application>
