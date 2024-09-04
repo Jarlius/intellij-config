@@ -33,6 +33,9 @@
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="AutoIndentLines" />
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="ChangesView.ApplyPatch">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
@@ -75,6 +78,9 @@
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowStandaloneDiff">
     <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="Documentation.Forward">
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="EditSourceNotInEditor">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -129,6 +135,9 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorStartNewLine" />
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
@@ -138,8 +147,14 @@
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="Git.Log.Branches.Change.Branch.Filter">
     <mouse-shortcut keystroke="button1 doubleClick" />
@@ -170,6 +185,9 @@
   </action>
   <action id="Macro.bottom text v2">
     <keyboard-shortcut first-keystroke="shift space" second-keystroke="w" />
+  </action>
+  <action id="Macro.class end">
+    <keyboard-shortcut first-keystroke="shift space" second-keystroke="z" />
   </action>
   <action id="Macro.class header">
     <keyboard-shortcut first-keystroke="shift space" second-keystroke="k" />
@@ -243,6 +261,15 @@
   <action id="Macro.unit test header">
     <keyboard-shortcut first-keystroke="shift space" second-keystroke="n" />
   </action>
+  <action id="Macro.unit test properties">
+    <keyboard-shortcut first-keystroke="shift space" second-keystroke="j" />
+  </action>
+  <action id="MoveElementLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="MoveElementRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="MoveStatementDown" />
@@ -262,6 +289,9 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="shift alt page_down" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt back_quote" />
     <keyboard-shortcut first-keystroke="shift alt right" />
@@ -272,6 +302,9 @@
   </action>
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="shift alt page_up" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift alt e" />
@@ -286,12 +319,16 @@
   <action id="RunInspectionOn">
     <keyboard-shortcut first-keystroke="alt quote" />
   </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowNavBar" />
-  <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="shift alt down" />
-  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="StretchSplitToLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+  </action>
+  <action id="StretchSplitToRight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
   </action>
   <action id="SwitchHeaderSource" />
   <action id="Table-scrollDownExtendSelection" />
