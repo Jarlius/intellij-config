@@ -1,4 +1,4 @@
-<keymap version="1" name="JarliusKeys" parent="Default for XWin">
+<keymap version="1" name="JarliusKeys" parent="$default">
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="alt minus" />
   </action>
